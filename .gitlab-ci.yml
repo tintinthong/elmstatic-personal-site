@@ -1,0 +1,19 @@
+
+image: node:current
+
+pages:
+  cache:
+    paths:
+    - node_modules
+    - /root/.elm
+    - elm-stuff
+  script:
+  - npm install -g elm --unsafe-perm=true
+  - npm install -g elmstatic
+  - elmstatic
+  - mv _site public
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
