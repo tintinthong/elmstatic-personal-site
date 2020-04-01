@@ -1,6 +1,6 @@
 {
     "siteTitle": "Michael Weiss",
-    "outputDir": "_site",
+    "outputDir": "docs",
     "copy": {
         "/about": "/"
     },

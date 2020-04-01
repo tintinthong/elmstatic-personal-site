@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Michael Weiss&apos;s blog</title>
+        <link>https://mweiss.me/posts</link>
+        <description>Michael Weiss&apos;s blog</description>
+        <lastBuildDate>Wed, 01 Apr 2020 14:51:40 GMT</lastBuildDate>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>Elmstatic</generator>
+        <language>en</language>
+        <image>
+            <title>Michael Weiss&apos;s blog</title>
+            <url>https://mweiss.me/img/developer-logo-helper.png</url>
+            <link>https://mweiss.me/posts</link>
+        </image>
+        <copyright>Copyright: Michael Weiss</copyright>
+        <item>
+            <title><![CDATA[Tracking selection state in Elm]]></title>
+            <link>https://mweiss.me/posts/2020-01-17-rte-part-i</link>
+            <guid>https://mweiss.me/posts/2020-01-17-rte-part-i</guid>
+            <pubDate>Fri, 17 Jan 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[
+Quick Summary
+
+I've been exploring for the last month or so ways to make a rich text editor in Elm.  For those
+not familiar with Elm, it's a functional programming language with Haskell-like syntax that
+compiles to javascript.  It promises no runtime exception, and is almost exclusively used for front
+end web development.  I first ran into the language 6 years ago, and I come back to it now and then when
+building new projects to see what's changed.
+
+While the core language and library can be co...]]></description>
+        </item>
+    </channel>
+</rss>
